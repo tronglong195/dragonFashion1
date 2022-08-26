@@ -30,3 +30,6 @@
 - Hoàn thành khởi tạo dự án
 
 # Bước 2: Tiến hành tạo khung app container cho trang Home
+
+- cài đặt sass cho dự án: npm install sass => sau khi cài đặt sass react và webpack tự động cofig sass bên dưới cho dự án
+- tạo các file có cấu trúc như sau: categories.style.scss sau đó import và các componet tương ứng để style cho chúng
