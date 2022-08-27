@@ -33,3 +33,19 @@
 
 - cài đặt sass cho dự án: npm install sass => sau khi cài đặt sass react và webpack tự động cofig sass bên dưới cho dự án
 - tạo các file có cấu trúc như sau: categories.style.scss sau đó import và các componet tương ứng để style cho chúng
+
+# Bước tiến hành component hóa cho ứng dụng:
+
+- Triển khai cấu trúc thư mục mới: tạo fodel mới có tên là componets trong thư mục src
+- Tao fodel category-item: tạo hai file category-item.component.jsx và category-item.styles.scss => Triển khai cấu trúc trong từ file
+- Tạo fodel directory để import component CategoryItem
+
+# Sữ dụng thư viện React-router để điều hướng các page cho ứng dụng
+
+- cài đặt:
+  cd router-tutorial
+  npm install react-router-dom@6
+- Tiến hành sữ dụng react router:
+
+* Trong index.js import react-router-dom: sữ dụng components <BrowserRouter> bọc component App
+* Trong app.js import { Routes, Route } from "react-router-dom" và thêm thuộc tính patch và element giống file đã codes
