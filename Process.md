@@ -48,4 +48,5 @@
 - Tiến hành sữ dụng react router:
 
 * Trong index.js import react-router-dom: sữ dụng components <BrowserRouter> bọc component App
-* Trong app.js import { Routes, Route } from "react-router-dom" và thêm thuộc tính patch và element giống file đã codes
+* Trong app.js import { Routes, Route } from "react-router-dom" và thêm thuộc tính patch và element giống file đã code
+* Triển khai chế độ router chidrenl cho Home page
